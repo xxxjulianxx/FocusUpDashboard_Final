@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer, BarChart, Bar, PieChart, Pie, Cell, Legend } from 'recharts'
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000/api'
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://focus-up-backend.vercel.app/api'
 
 export default function Dashboard(){
   const [tab, setTab] = useState('ranking')
