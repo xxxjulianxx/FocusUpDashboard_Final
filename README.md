@@ -1,7 +1,7 @@
 FocusUp Dashboard - Menu Fixed (React + Vite)
 
 This project is a React + Vite frontend that uses fetch() directly against your API base:
-http://localhost:4000/api
+https://focus-up-backend.vercel.app/api
 
 Features:
 - Fixed top navigation menu with tabs: Ranking, History, Metrics
